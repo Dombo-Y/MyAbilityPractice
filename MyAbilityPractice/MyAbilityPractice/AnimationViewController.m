@@ -19,8 +19,6 @@
     
     RedDot *redDot =[[RedDot alloc] initWithFrame:CGRectMake(50, 64, 50, 50)];
     [self.view addSubview:redDot];
-    
-    [redDot ]
 }
 
 - (void)didReceiveMemoryWarning {
