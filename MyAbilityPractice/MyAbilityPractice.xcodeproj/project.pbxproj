@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D133CC731E71A22100808048 /* WaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D133CC721E71A22100808048 /* WaterWaveView.m */; };
 		D1A8E4D31E704CC900D4DAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4D21E704CC900D4DAB8 /* main.m */; };
 		D1A8E4D61E704CC900D4DAB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4D51E704CC900D4DAB8 /* AppDelegate.m */; };
 		D1A8E4DC1E704CC900D4DAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E4DA1E704CC900D4DAB8 /* Main.storyboard */; };
 		D1A8E4DE1E704CC900D4DAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E4DD1E704CC900D4DAB8 /* Assets.xcassets */; };
 		D1A8E4E11E704CC900D4DAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E4DF1E704CC900D4DAB8 /* LaunchScreen.storyboard */; };
-		D1A8E4EE1E704EFD00D4DAB8 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E4ED1E704EFD00D4DAB8 /* 123.png */; };
 		D1A8E4F31E70520800D4DAB8 /* DemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4F21E70520800D4DAB8 /* DemoListViewController.m */; };
 		D1A8E4F61E70554100D4DAB8 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4F51E70554100D4DAB8 /* AnimationViewController.m */; };
 		D1A8E4FA1E70568900D4DAB8 /* RedDot.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4F91E70568800D4DAB8 /* RedDot.m */; };
@@ -21,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D133CC711E71A22100808048 /* WaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWaveView.h; sourceTree = "<group>"; };
+		D133CC721E71A22100808048 /* WaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWaveView.m; sourceTree = "<group>"; };
 		D1A8E4CE1E704CC900D4DAB8 /* MyAbilityPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAbilityPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A8E4D21E704CC900D4DAB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1A8E4D41E704CC900D4DAB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,7 +31,6 @@
 		D1A8E4DD1E704CC900D4DAB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1A8E4E01E704CC900D4DAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1A8E4E21E704CC900D4DAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1A8E4ED1E704EFD00D4DAB8 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 123.png; path = ../../../../Desktop/123.png; sourceTree = "<group>"; };
 		D1A8E4F11E70520800D4DAB8 /* DemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListViewController.h; sourceTree = "<group>"; };
 		D1A8E4F21E70520800D4DAB8 /* DemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListViewController.m; sourceTree = "<group>"; };
 		D1A8E4F41E70554100D4DAB8 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
@@ -72,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				D1A8E4F71E70563400D4DAB8 /* Animation */,
-				D1A8E4ED1E704EFD00D4DAB8 /* 123.png */,
 				D1A8E4D41E704CC900D4DAB8 /* AppDelegate.h */,
 				D1A8E4D51E704CC900D4DAB8 /* AppDelegate.m */,
 				D1A8E4F11E70520800D4DAB8 /* DemoListViewController.h */,
@@ -103,6 +103,8 @@
 				D1A8E4FB1E7056A500D4DAB8 /* AnimationCategroy */,
 				D1A8E4F81E70568800D4DAB8 /* RedDot.h */,
 				D1A8E4F91E70568800D4DAB8 /* RedDot.m */,
+				D133CC711E71A22100808048 /* WaterWaveView.h */,
+				D133CC721E71A22100808048 /* WaterWaveView.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -175,7 +177,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A8E4EE1E704EFD00D4DAB8 /* 123.png in Resources */,
 				D1A8E4E11E704CC900D4DAB8 /* LaunchScreen.storyboard in Resources */,
 				D1A8E5021E70596700D4DAB8 /* Images.xcassets in Resources */,
 				D1A8E4DE1E704CC900D4DAB8 /* Assets.xcassets in Resources */,
@@ -196,6 +197,7 @@
 				D1A8E4D31E704CC900D4DAB8 /* main.m in Sources */,
 				D1A8E4F31E70520800D4DAB8 /* DemoListViewController.m in Sources */,
 				D1A8E4F61E70554100D4DAB8 /* AnimationViewController.m in Sources */,
+				D133CC731E71A22100808048 /* WaterWaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +358,7 @@
 				D1A8E4E71E704CC900D4DAB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
