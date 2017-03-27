@@ -44,7 +44,9 @@
     
     CGFloat x = MAX(anchorRect.origin.x, containerView.frame.size.width - anchorRect.origin.x);
     CGFloat y = MAX(anchorRect.origin.y, containerView.frame.size.height - anchorRect.origin.y);
-    CGFloat radius = sqrt(pow(x, 2) + pow(y, 2)); // pow 求x的y次方（次幂）// sqrtf 平方根
+
+    //    CGFloat radius = sqrt(pow(x, 2) + pow(y, 2));// sqrtf 平方根 // pow 求x的y次方（次幂）
+    CGFloat radius = hypot(x, y); // 求直角三角形斜边的长度  用这个更屌  hypot(x, y) == sqrt(pow(x, 2) + pow(y, 2))
     
     UIBezierPath *startBezier = [UIBezierPath bezierPathWithOvalInRect:anchorRect];
     UIBezierPath *endCycle = [UIBezierPath bezierPathWithArcCenter:containerView.center radius:radius startAngle:0 endAngle:M_PI * 2 clockwise:YES];
@@ -54,10 +56,11 @@
     maskLayer.path = endCycle.CGPath;
     toVC.view.layer.mask = maskLayer; // 这里将 自定义画面 给 toVC.view.layer.mask
     
-    //    //创建路径动画
+//    创建路径动画
     CABasicAnimation *maskLayerAnimation = [CABasicAnimation animationWithKeyPath:@"path"];
     maskLayerAnimation.delegate = self;
-    //动画是加到layer上的，所以必须为CGPath，再将CGPath桥接为OC对象
+    
+//    动画是加到layer上的，所以必须为CGPath，再将CGPath桥接为OC对象
     maskLayerAnimation.fromValue = (__bridge id)(startBezier.CGPath);
     maskLayerAnimation.toValue = (__bridge id)((endCycle.CGPath));
     maskLayerAnimation.duration = [self transitionDuration:transitionContext];
