@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RedDot.h"
 
 @interface AnimationViewController : UIViewController
 
+@property (nonatomic, strong) RedDot *redDot;
 @end

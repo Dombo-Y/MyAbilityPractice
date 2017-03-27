@@ -7,22 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D133CC731E71A22100808048 /* WaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D133CC721E71A22100808048 /* WaterWaveView.m */; };
+		D12503001E88F7EA00588560 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12502FF1E88F7EA00588560 /* AnimationViewController.m */; };
+		D12503061E88F86600588560 /* RedDot.m in Sources */ = {isa = PBXBuildFile; fileRef = D12503031E88F86600588560 /* RedDot.m */; };
+		D12503071E88F86600588560 /* WaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D12503051E88F86600588560 /* WaterWaveView.m */; };
+		D125030A1E88F8C000588560 /* AnimationTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12503091E88F8C000588560 /* AnimationTransformViewController.m */; };
+		D125030E1E88FA7200588560 /* AnimationTranslatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D125030D1E88FA7200588560 /* AnimationTranslatorManager.m */; };
 		D1A8E4D31E704CC900D4DAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4D21E704CC900D4DAB8 /* main.m */; };
 		D1A8E4D61E704CC900D4DAB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4D51E704CC900D4DAB8 /* AppDelegate.m */; };
 		D1A8E4DC1E704CC900D4DAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E4DA1E704CC900D4DAB8 /* Main.storyboard */; };
 		D1A8E4DE1E704CC900D4DAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E4DD1E704CC900D4DAB8 /* Assets.xcassets */; };
 		D1A8E4E11E704CC900D4DAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E4DF1E704CC900D4DAB8 /* LaunchScreen.storyboard */; };
 		D1A8E4F31E70520800D4DAB8 /* DemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4F21E70520800D4DAB8 /* DemoListViewController.m */; };
-		D1A8E4F61E70554100D4DAB8 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4F51E70554100D4DAB8 /* AnimationViewController.m */; };
-		D1A8E4FA1E70568900D4DAB8 /* RedDot.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4F91E70568800D4DAB8 /* RedDot.m */; };
 		D1A8E4FE1E7056EA00D4DAB8 /* NSObject+AnimationComputing.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4FD1E7056EA00D4DAB8 /* NSObject+AnimationComputing.m */; };
 		D1A8E5021E70596700D4DAB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E5011E70596700D4DAB8 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D133CC711E71A22100808048 /* WaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWaveView.h; sourceTree = "<group>"; };
-		D133CC721E71A22100808048 /* WaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWaveView.m; sourceTree = "<group>"; };
+		D12502FE1E88F7EA00588560 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		D12502FF1E88F7EA00588560 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		D12503021E88F86600588560 /* RedDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedDot.h; sourceTree = "<group>"; };
+		D12503031E88F86600588560 /* RedDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedDot.m; sourceTree = "<group>"; };
+		D12503041E88F86600588560 /* WaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWaveView.h; sourceTree = "<group>"; };
+		D12503051E88F86600588560 /* WaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWaveView.m; sourceTree = "<group>"; };
+		D12503081E88F8C000588560 /* AnimationTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTransformViewController.h; sourceTree = "<group>"; };
+		D12503091E88F8C000588560 /* AnimationTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTransformViewController.m; sourceTree = "<group>"; };
+		D125030C1E88FA7200588560 /* AnimationTranslatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTranslatorManager.h; sourceTree = "<group>"; };
+		D125030D1E88FA7200588560 /* AnimationTranslatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTranslatorManager.m; sourceTree = "<group>"; };
 		D1A8E4CE1E704CC900D4DAB8 /* MyAbilityPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAbilityPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A8E4D21E704CC900D4DAB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1A8E4D41E704CC900D4DAB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,10 +43,6 @@
 		D1A8E4E21E704CC900D4DAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1A8E4F11E70520800D4DAB8 /* DemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListViewController.h; sourceTree = "<group>"; };
 		D1A8E4F21E70520800D4DAB8 /* DemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListViewController.m; sourceTree = "<group>"; };
-		D1A8E4F41E70554100D4DAB8 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
-		D1A8E4F51E70554100D4DAB8 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
-		D1A8E4F81E70568800D4DAB8 /* RedDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedDot.h; sourceTree = "<group>"; };
-		D1A8E4F91E70568800D4DAB8 /* RedDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedDot.m; sourceTree = "<group>"; };
 		D1A8E4FC1E7056EA00D4DAB8 /* NSObject+AnimationComputing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AnimationComputing.h"; sourceTree = "<group>"; };
 		D1A8E4FD1E7056EA00D4DAB8 /* NSObject+AnimationComputing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AnimationComputing.m"; sourceTree = "<group>"; };
 		D1A8E5011E70596700D4DAB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +59,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D12503011E88F86600588560 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				D12503021E88F86600588560 /* RedDot.h */,
+				D12503031E88F86600588560 /* RedDot.m */,
+				D12503041E88F86600588560 /* WaterWaveView.h */,
+				D12503051E88F86600588560 /* WaterWaveView.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		D125030B1E88F9EF00588560 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D125030C1E88FA7200588560 /* AnimationTranslatorManager.h */,
+				D125030D1E88FA7200588560 /* AnimationTranslatorManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		D1A8E4C51E704CC900D4DAB8 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +103,6 @@
 				D1A8E4D51E704CC900D4DAB8 /* AppDelegate.m */,
 				D1A8E4F11E70520800D4DAB8 /* DemoListViewController.h */,
 				D1A8E4F21E70520800D4DAB8 /* DemoListViewController.m */,
-				D1A8E4F41E70554100D4DAB8 /* AnimationViewController.h */,
-				D1A8E4F51E70554100D4DAB8 /* AnimationViewController.m */,
 				D1A8E5011E70596700D4DAB8 /* Images.xcassets */,
 				D1A8E4DA1E704CC900D4DAB8 /* Main.storyboard */,
 				D1A8E4DD1E704CC900D4DAB8 /* Assets.xcassets */,
@@ -100,11 +124,13 @@
 		D1A8E4F71E70563400D4DAB8 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				D125030B1E88F9EF00588560 /* Manager */,
+				D12503011E88F86600588560 /* Control */,
 				D1A8E4FB1E7056A500D4DAB8 /* AnimationCategroy */,
-				D1A8E4F81E70568800D4DAB8 /* RedDot.h */,
-				D1A8E4F91E70568800D4DAB8 /* RedDot.m */,
-				D133CC711E71A22100808048 /* WaterWaveView.h */,
-				D133CC721E71A22100808048 /* WaterWaveView.m */,
+				D12502FE1E88F7EA00588560 /* AnimationViewController.h */,
+				D12502FF1E88F7EA00588560 /* AnimationViewController.m */,
+				D12503081E88F8C000588560 /* AnimationTransformViewController.h */,
+				D12503091E88F8C000588560 /* AnimationTransformViewController.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -191,13 +217,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A8E4FA1E70568900D4DAB8 /* RedDot.m in Sources */,
+				D12503001E88F7EA00588560 /* AnimationViewController.m in Sources */,
 				D1A8E4FE1E7056EA00D4DAB8 /* NSObject+AnimationComputing.m in Sources */,
+				D12503071E88F86600588560 /* WaterWaveView.m in Sources */,
 				D1A8E4D61E704CC900D4DAB8 /* AppDelegate.m in Sources */,
 				D1A8E4D31E704CC900D4DAB8 /* main.m in Sources */,
+				D12503061E88F86600588560 /* RedDot.m in Sources */,
 				D1A8E4F31E70520800D4DAB8 /* DemoListViewController.m in Sources */,
-				D1A8E4F61E70554100D4DAB8 /* AnimationViewController.m in Sources */,
-				D133CC731E71A22100808048 /* WaterWaveView.m in Sources */,
+				D125030E1E88FA7200588560 /* AnimationTranslatorManager.m in Sources */,
+				D125030A1E88F8C000588560 /* AnimationTransformViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
