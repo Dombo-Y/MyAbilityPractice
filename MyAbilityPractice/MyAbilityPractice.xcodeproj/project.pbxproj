@@ -12,6 +12,10 @@
 		D12503071E88F86600588560 /* WaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D12503051E88F86600588560 /* WaterWaveView.m */; };
 		D125030A1E88F8C000588560 /* AnimationTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12503091E88F8C000588560 /* AnimationTransformViewController.m */; };
 		D125030E1E88FA7200588560 /* AnimationTranslatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D125030D1E88FA7200588560 /* AnimationTranslatorManager.m */; };
+		D16F895B1E8F56360092D451 /* TransformAnimationAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F895A1E8F56360092D451 /* TransformAnimationAViewController.m */; };
+		D16F895E1E8F703A0092D451 /* TransformAnimationBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F895D1E8F703A0092D451 /* TransformAnimationBViewController.m */; };
+		D16F89601E8F71EE0092D451 /* 7472Image.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D16F895F1E8F71EE0092D451 /* 7472Image.PNG */; };
+		D16F89631E8F98200092D451 /* NaviTranstionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F89621E8F98200092D451 /* NaviTranstionManager.m */; };
 		D1A8E4D31E704CC900D4DAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4D21E704CC900D4DAB8 /* main.m */; };
 		D1A8E4D61E704CC900D4DAB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4D51E704CC900D4DAB8 /* AppDelegate.m */; };
 		D1A8E4DC1E704CC900D4DAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E4DA1E704CC900D4DAB8 /* Main.storyboard */; };
@@ -33,6 +37,13 @@
 		D12503091E88F8C000588560 /* AnimationTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTransformViewController.m; sourceTree = "<group>"; };
 		D125030C1E88FA7200588560 /* AnimationTranslatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTranslatorManager.h; sourceTree = "<group>"; };
 		D125030D1E88FA7200588560 /* AnimationTranslatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTranslatorManager.m; sourceTree = "<group>"; };
+		D16F89591E8F56360092D451 /* TransformAnimationAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformAnimationAViewController.h; sourceTree = "<group>"; };
+		D16F895A1E8F56360092D451 /* TransformAnimationAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformAnimationAViewController.m; sourceTree = "<group>"; };
+		D16F895C1E8F703A0092D451 /* TransformAnimationBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformAnimationBViewController.h; sourceTree = "<group>"; };
+		D16F895D1E8F703A0092D451 /* TransformAnimationBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformAnimationBViewController.m; sourceTree = "<group>"; };
+		D16F895F1E8F71EE0092D451 /* 7472Image.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7472Image.PNG; sourceTree = "<group>"; };
+		D16F89611E8F98200092D451 /* NaviTranstionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviTranstionManager.h; sourceTree = "<group>"; };
+		D16F89621E8F98200092D451 /* NaviTranstionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviTranstionManager.m; sourceTree = "<group>"; };
 		D1A8E4CE1E704CC900D4DAB8 /* MyAbilityPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAbilityPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A8E4D21E704CC900D4DAB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1A8E4D41E704CC900D4DAB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +90,20 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		D16F89581E8F55500092D451 /* TransformAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D16F895F1E8F71EE0092D451 /* 7472Image.PNG */,
+				D16F89611E8F98200092D451 /* NaviTranstionManager.h */,
+				D16F89621E8F98200092D451 /* NaviTranstionManager.m */,
+				D16F89591E8F56360092D451 /* TransformAnimationAViewController.h */,
+				D16F895A1E8F56360092D451 /* TransformAnimationAViewController.m */,
+				D16F895C1E8F703A0092D451 /* TransformAnimationBViewController.h */,
+				D16F895D1E8F703A0092D451 /* TransformAnimationBViewController.m */,
+			);
+			path = TransformAnimation;
+			sourceTree = "<group>";
+		};
 		D1A8E4C51E704CC900D4DAB8 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +123,7 @@
 		D1A8E4D01E704CC900D4DAB8 /* MyAbilityPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D16F89581E8F55500092D451 /* TransformAnimation */,
 				D1A8E4F71E70563400D4DAB8 /* Animation */,
 				D1A8E4D41E704CC900D4DAB8 /* AppDelegate.h */,
 				D1A8E4D51E704CC900D4DAB8 /* AppDelegate.m */,
@@ -207,6 +233,7 @@
 				D1A8E5021E70596700D4DAB8 /* Images.xcassets in Resources */,
 				D1A8E4DE1E704CC900D4DAB8 /* Assets.xcassets in Resources */,
 				D1A8E4DC1E704CC900D4DAB8 /* Main.storyboard in Resources */,
+				D16F89601E8F71EE0092D451 /* 7472Image.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +246,9 @@
 			files = (
 				D12503001E88F7EA00588560 /* AnimationViewController.m in Sources */,
 				D1A8E4FE1E7056EA00D4DAB8 /* NSObject+AnimationComputing.m in Sources */,
+				D16F895B1E8F56360092D451 /* TransformAnimationAViewController.m in Sources */,
+				D16F895E1E8F703A0092D451 /* TransformAnimationBViewController.m in Sources */,
+				D16F89631E8F98200092D451 /* NaviTranstionManager.m in Sources */,
 				D12503071E88F86600588560 /* WaterWaveView.m in Sources */,
 				D1A8E4D61E704CC900D4DAB8 /* AppDelegate.m in Sources */,
 				D1A8E4D31E704CC900D4DAB8 /* main.m in Sources */,

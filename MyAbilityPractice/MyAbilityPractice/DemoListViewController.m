@@ -25,8 +25,8 @@ UITableViewDataSource
     self.tableview.delegate =self;
     self.tableview.dataSource =self;
     
-    self.nameArray = @[@"animation"];
-    self.vcArray = @[@"AnimationViewController"];
+    self.nameArray = @[@"animation",@"TransformAnimation"];
+    self.vcArray = @[@"AnimationViewController",@"TransformAnimationAViewController"];
 }
 
 - (void)didReceiveMemoryWarning {
