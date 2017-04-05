@@ -11,7 +11,9 @@
 
 typedef NS_ENUM(NSUInteger, NaviTranstionManagerType) {
     NaviTranstionManagerPush,
-    NaviTranstionManagerPop
+    NaviTranstionManagerPop,
+    NaviTranstionManagerPersent,
+    NaviTranstionManagerDismiss
 };
 
 @interface NaviTranstionManager : NSObject<

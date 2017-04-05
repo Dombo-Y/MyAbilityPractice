@@ -14,8 +14,10 @@
 		D125030E1E88FA7200588560 /* AnimationTranslatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D125030D1E88FA7200588560 /* AnimationTranslatorManager.m */; };
 		D16F895B1E8F56360092D451 /* TransformAnimationAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F895A1E8F56360092D451 /* TransformAnimationAViewController.m */; };
 		D16F895E1E8F703A0092D451 /* TransformAnimationBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F895D1E8F703A0092D451 /* TransformAnimationBViewController.m */; };
-		D16F89601E8F71EE0092D451 /* 7472Image.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D16F895F1E8F71EE0092D451 /* 7472Image.PNG */; };
 		D16F89631E8F98200092D451 /* NaviTranstionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F89621E8F98200092D451 /* NaviTranstionManager.m */; };
+		D16F89691E94BEC60092D451 /* TransformAnimationCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F89681E94BEC60092D451 /* TransformAnimationCViewController.m */; };
+		D16F896C1E94CED70092D451 /* InteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F896B1E94CED70092D451 /* InteractiveTransition.m */; };
+		D16F896E1E94DDB40092D451 /* 7472Image.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D16F896D1E94DDB40092D451 /* 7472Image.PNG */; };
 		D1A8E4D31E704CC900D4DAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4D21E704CC900D4DAB8 /* main.m */; };
 		D1A8E4D61E704CC900D4DAB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4D51E704CC900D4DAB8 /* AppDelegate.m */; };
 		D1A8E4DC1E704CC900D4DAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E4DA1E704CC900D4DAB8 /* Main.storyboard */; };
@@ -41,9 +43,13 @@
 		D16F895A1E8F56360092D451 /* TransformAnimationAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformAnimationAViewController.m; sourceTree = "<group>"; };
 		D16F895C1E8F703A0092D451 /* TransformAnimationBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformAnimationBViewController.h; sourceTree = "<group>"; };
 		D16F895D1E8F703A0092D451 /* TransformAnimationBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformAnimationBViewController.m; sourceTree = "<group>"; };
-		D16F895F1E8F71EE0092D451 /* 7472Image.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7472Image.PNG; sourceTree = "<group>"; };
 		D16F89611E8F98200092D451 /* NaviTranstionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviTranstionManager.h; sourceTree = "<group>"; };
 		D16F89621E8F98200092D451 /* NaviTranstionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviTranstionManager.m; sourceTree = "<group>"; };
+		D16F89671E94BEC60092D451 /* TransformAnimationCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformAnimationCViewController.h; sourceTree = "<group>"; };
+		D16F89681E94BEC60092D451 /* TransformAnimationCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformAnimationCViewController.m; sourceTree = "<group>"; };
+		D16F896A1E94CED70092D451 /* InteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTransition.h; sourceTree = "<group>"; };
+		D16F896B1E94CED70092D451 /* InteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveTransition.m; sourceTree = "<group>"; };
+		D16F896D1E94DDB40092D451 /* 7472Image.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7472Image.PNG; sourceTree = "<group>"; };
 		D1A8E4CE1E704CC900D4DAB8 /* MyAbilityPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAbilityPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A8E4D21E704CC900D4DAB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1A8E4D41E704CC900D4DAB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,13 +99,17 @@
 		D16F89581E8F55500092D451 /* TransformAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				D16F895F1E8F71EE0092D451 /* 7472Image.PNG */,
+				D16F896D1E94DDB40092D451 /* 7472Image.PNG */,
+				D16F896A1E94CED70092D451 /* InteractiveTransition.h */,
+				D16F896B1E94CED70092D451 /* InteractiveTransition.m */,
 				D16F89611E8F98200092D451 /* NaviTranstionManager.h */,
 				D16F89621E8F98200092D451 /* NaviTranstionManager.m */,
 				D16F89591E8F56360092D451 /* TransformAnimationAViewController.h */,
 				D16F895A1E8F56360092D451 /* TransformAnimationAViewController.m */,
 				D16F895C1E8F703A0092D451 /* TransformAnimationBViewController.h */,
 				D16F895D1E8F703A0092D451 /* TransformAnimationBViewController.m */,
+				D16F89671E94BEC60092D451 /* TransformAnimationCViewController.h */,
+				D16F89681E94BEC60092D451 /* TransformAnimationCViewController.m */,
 			);
 			path = TransformAnimation;
 			sourceTree = "<group>";
@@ -233,7 +243,7 @@
 				D1A8E5021E70596700D4DAB8 /* Images.xcassets in Resources */,
 				D1A8E4DE1E704CC900D4DAB8 /* Assets.xcassets in Resources */,
 				D1A8E4DC1E704CC900D4DAB8 /* Main.storyboard in Resources */,
-				D16F89601E8F71EE0092D451 /* 7472Image.PNG in Resources */,
+				D16F896E1E94DDB40092D451 /* 7472Image.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,11 +261,13 @@
 				D16F89631E8F98200092D451 /* NaviTranstionManager.m in Sources */,
 				D12503071E88F86600588560 /* WaterWaveView.m in Sources */,
 				D1A8E4D61E704CC900D4DAB8 /* AppDelegate.m in Sources */,
+				D16F896C1E94CED70092D451 /* InteractiveTransition.m in Sources */,
 				D1A8E4D31E704CC900D4DAB8 /* main.m in Sources */,
 				D12503061E88F86600588560 /* RedDot.m in Sources */,
 				D1A8E4F31E70520800D4DAB8 /* DemoListViewController.m in Sources */,
 				D125030E1E88FA7200588560 /* AnimationTranslatorManager.m in Sources */,
 				D125030A1E88F8C000588560 /* AnimationTransformViewController.m in Sources */,
+				D16F89691E94BEC60092D451 /* TransformAnimationCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
