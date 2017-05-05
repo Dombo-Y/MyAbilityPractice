@@ -12,12 +12,16 @@
 		D12503071E88F86600588560 /* WaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D12503051E88F86600588560 /* WaterWaveView.m */; };
 		D125030A1E88F8C000588560 /* AnimationTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12503091E88F8C000588560 /* AnimationTransformViewController.m */; };
 		D125030E1E88FA7200588560 /* AnimationTranslatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D125030D1E88FA7200588560 /* AnimationTranslatorManager.m */; };
+		D14265A01EAF381300463958 /* DonutHUBView.m in Sources */ = {isa = PBXBuildFile; fileRef = D142659F1EAF381300463958 /* DonutHUBView.m */; };
+		D14265A61EAF552F00463958 /* RingProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = D14265A51EAF552F00463958 /* RingProcessView.m */; };
 		D16F895B1E8F56360092D451 /* TransformAnimationAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F895A1E8F56360092D451 /* TransformAnimationAViewController.m */; };
 		D16F895E1E8F703A0092D451 /* TransformAnimationBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F895D1E8F703A0092D451 /* TransformAnimationBViewController.m */; };
 		D16F89631E8F98200092D451 /* NaviTranstionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F89621E8F98200092D451 /* NaviTranstionManager.m */; };
 		D16F89691E94BEC60092D451 /* TransformAnimationCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F89681E94BEC60092D451 /* TransformAnimationCViewController.m */; };
 		D16F896C1E94CED70092D451 /* InteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F896B1E94CED70092D451 /* InteractiveTransition.m */; };
 		D16F896E1E94DDB40092D451 /* 7472Image.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D16F896D1E94DDB40092D451 /* 7472Image.PNG */; };
+		D16F8E831E95E6560092D451 /* GeometryDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F8E821E95E6560092D451 /* GeometryDrawingViewController.m */; };
+		D16F8E871E95E7190092D451 /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F8E861E95E7190092D451 /* PieView.m */; };
 		D1A8E4D31E704CC900D4DAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4D21E704CC900D4DAB8 /* main.m */; };
 		D1A8E4D61E704CC900D4DAB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8E4D51E704CC900D4DAB8 /* AppDelegate.m */; };
 		D1A8E4DC1E704CC900D4DAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8E4DA1E704CC900D4DAB8 /* Main.storyboard */; };
@@ -39,6 +43,10 @@
 		D12503091E88F8C000588560 /* AnimationTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTransformViewController.m; sourceTree = "<group>"; };
 		D125030C1E88FA7200588560 /* AnimationTranslatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTranslatorManager.h; sourceTree = "<group>"; };
 		D125030D1E88FA7200588560 /* AnimationTranslatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTranslatorManager.m; sourceTree = "<group>"; };
+		D142659E1EAF381300463958 /* DonutHUBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonutHUBView.h; sourceTree = "<group>"; };
+		D142659F1EAF381300463958 /* DonutHUBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonutHUBView.m; sourceTree = "<group>"; };
+		D14265A41EAF552F00463958 /* RingProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingProcessView.h; sourceTree = "<group>"; };
+		D14265A51EAF552F00463958 /* RingProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingProcessView.m; sourceTree = "<group>"; };
 		D16F89591E8F56360092D451 /* TransformAnimationAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformAnimationAViewController.h; sourceTree = "<group>"; };
 		D16F895A1E8F56360092D451 /* TransformAnimationAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformAnimationAViewController.m; sourceTree = "<group>"; };
 		D16F895C1E8F703A0092D451 /* TransformAnimationBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformAnimationBViewController.h; sourceTree = "<group>"; };
@@ -50,6 +58,10 @@
 		D16F896A1E94CED70092D451 /* InteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTransition.h; sourceTree = "<group>"; };
 		D16F896B1E94CED70092D451 /* InteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveTransition.m; sourceTree = "<group>"; };
 		D16F896D1E94DDB40092D451 /* 7472Image.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7472Image.PNG; sourceTree = "<group>"; };
+		D16F8E811E95E6560092D451 /* GeometryDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryDrawingViewController.h; sourceTree = "<group>"; };
+		D16F8E821E95E6560092D451 /* GeometryDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryDrawingViewController.m; sourceTree = "<group>"; };
+		D16F8E851E95E7190092D451 /* PieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		D16F8E861E95E7190092D451 /* PieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
 		D1A8E4CE1E704CC900D4DAB8 /* MyAbilityPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAbilityPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A8E4D21E704CC900D4DAB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1A8E4D41E704CC900D4DAB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +126,30 @@
 			path = TransformAnimation;
 			sourceTree = "<group>";
 		};
+		D16F8E801E95E61C0092D451 /* GeometryDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				D16F8E841E95E7050092D451 /* View */,
+				D16F8E811E95E6560092D451 /* GeometryDrawingViewController.h */,
+				D16F8E821E95E6560092D451 /* GeometryDrawingViewController.m */,
+			);
+			name = GeometryDrawing;
+			path = GeometryDraw;
+			sourceTree = "<group>";
+		};
+		D16F8E841E95E7050092D451 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D14265A41EAF552F00463958 /* RingProcessView.h */,
+				D14265A51EAF552F00463958 /* RingProcessView.m */,
+				D16F8E851E95E7190092D451 /* PieView.h */,
+				D16F8E861E95E7190092D451 /* PieView.m */,
+				D142659E1EAF381300463958 /* DonutHUBView.h */,
+				D142659F1EAF381300463958 /* DonutHUBView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D1A8E4C51E704CC900D4DAB8 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +169,7 @@
 		D1A8E4D01E704CC900D4DAB8 /* MyAbilityPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D16F8E801E95E61C0092D451 /* GeometryDrawing */,
 				D16F89581E8F55500092D451 /* TransformAnimation */,
 				D1A8E4F71E70563400D4DAB8 /* Animation */,
 				D1A8E4D41E704CC900D4DAB8 /* AppDelegate.h */,
@@ -263,10 +300,14 @@
 				D1A8E4D61E704CC900D4DAB8 /* AppDelegate.m in Sources */,
 				D16F896C1E94CED70092D451 /* InteractiveTransition.m in Sources */,
 				D1A8E4D31E704CC900D4DAB8 /* main.m in Sources */,
+				D16F8E831E95E6560092D451 /* GeometryDrawingViewController.m in Sources */,
 				D12503061E88F86600588560 /* RedDot.m in Sources */,
 				D1A8E4F31E70520800D4DAB8 /* DemoListViewController.m in Sources */,
 				D125030E1E88FA7200588560 /* AnimationTranslatorManager.m in Sources */,
+				D14265A61EAF552F00463958 /* RingProcessView.m in Sources */,
+				D16F8E871E95E7190092D451 /* PieView.m in Sources */,
 				D125030A1E88F8C000588560 /* AnimationTransformViewController.m in Sources */,
+				D14265A01EAF381300463958 /* DonutHUBView.m in Sources */,
 				D16F89691E94BEC60092D451 /* TransformAnimationCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
